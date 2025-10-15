@@ -1,0 +1,184 @@
+/* style for nav */
+
+
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* coloring the name or john */
+.dark2{
+    color: #474747;
+}
+.dark3{
+    color:#757575;
+}
+.textprimary{
+   color: #FD6E0A; 
+}
+.btn{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 35px;
+    font-size: 20px;
+}
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+    
+}
+
+.navtitle{
+
+font-weight: 800;
+font-size: 45px;
+
+}
+ nav ul {
+    display: flex;
+    align-items: center;
+    
+} 
+ nav ul li{ /* ekhane display flex use korle li flex hbena li er content flex hbe .li flex korte chaile ul flex korte hbe  */
+
+ margin-right:50px;
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.secondarybg{
+    background-color:#FFF8F3 ;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.bannercontent{
+    width: 580px;
+}
+.bannergreeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.bannertitle{
+    font-size: 85px;
+    font-weight: bold;
+}
+.bannerdescription{
+    font-size: 18px;
+    font-weight: 100;
+    color: #757575;
+}
+.bannerprofilepic{
+    width: 500px;
+}
+
+
+/* ABOUT ME CSS */
+.sectiontitle{
+    font-size: 35px;
+
+    font-weight: bold;
+    color: #181818;
+}
+.sectiondescription{
+    font-size: 18px;
+    font-weight: 100;
+    color: #757575;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+}
+
+.about{
+
+padding: 130px 150px;
+text-align: center;
+margin-top: 130px;
+
+}
+.aboutitems{
+    display: flex;
+    justify-content: space-around;
+}
+.itemdescription{
+   
+    font-weight: bold;
+}
+.textcenter{
+    text-align: center;
+}
+.skillcontainer{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    margin-top: 20px;
+}
+
+
+
+
+/* resumesection style */
+.resumecontainer{
+    display: flex;
+    gap:24px;
+}
+.experiencesubtitle{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.downloadcv{
+    margin-top: 50px;
+}
+
+
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footercolumn{
+    width: 50%;
+}
+footer input[type="text"] , input[type="email"] ,footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
