@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-800">
+    <section class="max-w-md  min-h-screen mx-auto py-6 bg-gray-200">
+        <header>
+        <nav class="flex justify-center items-center mt-6" >
+            <div class="relative flex justify-center items-center mt-10 w-9/12 mb-10" >
+                    <img class="w-48 absolute"     src="assets/bg.png" alt="">
+            
+                    <img class="w-16" src="assets/Group.png" alt="">
+                
+            </div> 
+        </nav>
+    </header>
+
+
+    <!-- log in section -->
+   <div class=" ">
+  <div class="hero-content flex-col lg:flex-row-reverse">
+    
+    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+      <form class="card-body">
+        <fieldset class="fieldset">
+          <label class="label">Mobile Number</label>
+          <input id="account-number"  value="01826301355"  type="number" class="input" placeholder="Enter Your Number" required />
+          <label class="label">PIN</label>
+          <input  id="PIN"    value="1234"   type="text" class="input" placeholder="Enter 4 Digit PIN" required />
+          <div><a class="link link-hover">Forgot PIN?</a></div>
+          <button  id="login-btn"   class="btn btn-neutral mt-4 bg-blue-700">Login</button>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+    </section>
+    <script src="script/login.js"></script>
+   
+</body>
+</html>
